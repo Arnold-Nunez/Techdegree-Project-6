@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff;
+  width: 100%;
+}
+
+.paragraphs {
+  width: 80%;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 32px;
+}
+
+@media (min-width: 768px) {
+  .vidWrapper,
+  .paragraphs {
+    width: 80%;
+    max-width:1050px;
+  }
+
+
+}
